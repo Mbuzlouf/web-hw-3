@@ -118,3 +118,70 @@
     #                                                                #
     ------------------------------------------------------------------
 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1
+      style="
+        text-align: center;
+        font-size: 110px;
+        margin-bottom: 0;
+        color: midnightblue;
+      "
+    >
+      Grade Calculator
+    </h1>
+    <h3 style="text-align: center; font-size: 30px; color: midnightblue;">
+      Input your grades separated by commas :
+    </h3>
+    <form style="text-align: center;">
+      <input
+        type="text"
+        name=""
+        style="width: 200px; clear: both; height: 25px;"
+        id="field1"
+        placeholder=" quizes"
+      />
+      <input
+        type="text"
+        name=""
+        style="width: 200px; clear: both; height: 25px;"
+        id="field2"
+        placeholder=" midterm"
+      />
+      <input
+        type="text"
+        name=""
+        style="width: 200px; clear: both; height: 25px;"
+        id="field3"
+        placeholder=" finaltest"
+      />
+      <input
+        type="text"
+        name=""
+        style="width: 200px; clear: both; height: 25px;"
+        id="field4"
+        placeholder=" oral"
+      />
+      <button onclick="S_marks()">
+        hi
+      </button>
+    </form>
+    <h2 style="margin-top: 40px; text-align: center;">
+      Your numeric grade is :
+    </h2>
+    <p style="text-align: center; margin: 0; font-size: 40px;">....</p>
+    <h2 style="text-align: center; margin-top: 30px;">
+      Your letter grade is :
+    </h2>
+    <p style="text-align: center; margin: 0; font-size: 40px;" id="letter">
+      ....
+    </p>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
