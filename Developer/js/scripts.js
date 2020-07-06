@@ -22,8 +22,10 @@ let skill = prompt("اختر اللغة");
 let skill2 = prompt("اختر لغة أخرى");
 
 if (
-  (age > 25 && age < 40 && exper > 3 && skill == needed_languages) ||
-  skill2 == needed_languages
+  age > 25 &&
+  age < 40 &&
+  exper > 3 &&
+  (skill == needed_languages) | (skill2 == needed_languages)
 ) {
   console.log("مقبول");
 } else {
